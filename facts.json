@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "programming": "Programação é o processo de escrita, teste e manutenção de um programa de computador."
+    },
+    {
+      "id": 2,
+      "javascript": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma."
+    },
+    {
+      "id": 3,
+      "python": "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. "
+    },
+    {
+      "id": 4,
+      "java": "Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems."
+    }
+]
