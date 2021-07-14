@@ -7,9 +7,14 @@ app.get('/', (req, res) => {
   res.end('Hello World!');
 });
 
-app.get("/list_facts", (req, res) => {
+
+// adicionar o id na url como uma variavel
+// pegar objeto aleatorio
+app.get("/list_facts/:id", (req, res) => {
     fs.readFile(__dirname + '/' + 'facts.json', 'utf8', (err, data) => {
-        res.end(data);
+        console.log(data)
+        const jsonData = JSON.parse(data)
+        res.json(jsonData[req.params.id]);
     });
 });
 
